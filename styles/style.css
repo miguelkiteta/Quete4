@@ -1,0 +1,260 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: #1b143f;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    min-height: 100vw;
+    display: 100vw;
+}
+
+header{
+    height: 100px;
+    background: url("images/2.jpg");
+    -webkit-background-size:cover;
+    background-position: center center;
+    position: relative;
+    
+}
+
+section{
+    background-image:url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 100vh;
+}
+ 
+footer{
+    height: 180px;
+    width: 100%;
+    background: #130152;
+    padding: 8px 0px;
+    display: flex;
+    justify-content: center;
+}
+.footer-linkedin-icon{
+    width: 100%;
+    height: auto;
+    margin: auto;
+
+}
+.footer-linkedin-icon ul{
+    margin: 0px;
+    padding: 0px;
+    text-align:center ;
+}
+.footer-linkedin-icon ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px;
+    
+}
+.footer-linkedin-icon ul li a{
+    color: #f0eaea;
+    font-size: 16px;
+    padding: auto;
+    margin-left: 20px;
+
+}
+
+/* Ecris en dessous */
+ h1{
+    text-align: center;
+    background: #271d4c;
+    color: white;
+    border: 1px solid #777;
+    font-family: 'Courier New', Courier, monospace;
+}
+#fusee:hover{
+   transform: rotate(360deg);
+   transition: 0.5s;
+   background-color: blue;
+}
+
+#fusee{
+    display: flex;
+    margin:auto; 
+}
+@media only screen and (max-width:320px){
+    span.web{
+        visibility: hidden;
+    }
+    span.web1{
+        visibility: hidden;
+    }   
+}
+
+
+
+
+#grid{ 
+    display: grid;
+    width: 400px;
+    margin: auto;
+    }
+
+#grid :nth-child(1){
+   grid-area: 1/2;
+}
+#grid :nth-child(2){
+    grid-area: 2/1;
+    transform: translate(60px,0);
+}
+#grid :nth-child(3){
+    grid-area: 2/3;
+    transform: translate(-60px,0);
+}
+#grid :nth-child(4){
+    grid-area: 3/1;
+}
+#grid :nth-child(5){
+    grid-area: 3/2;
+}
+#grid :nth-child(6){
+    grid-area: 3/3;
+}
+
+
+
+
+
+.Logo p{
+    min-height: 100%;
+    display: flex;
+}
+.wraper{
+    width: 1170px;
+    margin:auto ;
+}
+header{
+    background: url("images/2.jpg");
+    height: 30vh;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display:inline-block ;
+}
+.nav-area li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+}
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+    border-radius: 30px;
+}
+@media (max-width:800px){
+    .logo img{width: 50px};
+}
+@media (max-width:320px){
+    .logo img{width: 30px};
+}
+.logo img:hover{
+    background: #fff;
+    color: #333;
+}
+
+section #Pt{
+    background:#271d4c ;
+    width: 200px;
+    height: 100px;
+    color: white;
+    border: solid;
+    margin: auto;
+    overflow: hidden;
+}
+ 
+a:link{
+    color: #fff;
+    text-decoration: none;
+}
+a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color:#fff ;
+    text-decoration: none;
+}
+a:active{
+    color: #fff;
+    text-decoration: none;
+}
+/* icon linkedn*/
+.info{
+    display: flex;
+    align-items: center;
+}
+ 
+ 
+
+
+
+/* css pour logo*/
+
+div.logo-antmig{
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+
+ div.logo-antmig span{
+    display: block;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100%;
+ }
+
+ div.logo-antmig span:nth-of-type(1){
+    background-color: rgba(11, 240, 79, 0.877);
+    margin-right:-5px;
+    
+ }
+
+ div.logo-antmig span:nth-of-type(2){
+    background-color: rgb(75, 12, 247);
+    margin-left:-5vw;
+    mix-blend-mode: hard-light;   
+ }
+
+ div.logo-antmig p{
+    position: absolute;
+    font-size: 2.5vw;
+    color: white;
+    font-weight: 900;
+    transform: skew(-10deg);
+ }
+ @keyframes antmig{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+ }
+ div.logo-antmig:hover{
+    transform: rotate(360deg);
+   transition: 0.5s;
+   background-color: rgba(0, 0, 255, 0.158);
+   
+ }

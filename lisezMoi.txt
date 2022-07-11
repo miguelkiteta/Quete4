@@ -1,0 +1,80 @@
+Faction Front: Libre de modifier le footer
+
+Faction Back: None
+
+Faction Designer: Remplace l'image bg par un autre background (même theme et taille)
+
+Fraichement débarqué sur la plage, à l'ouest de Reactopia et suite à l'intervention des moussaillons pour reconstituer les animaux du capitaine Ari. Ari et les moussaillons ont festoyé autour d'un feu de camp. Les moussaillons sont encore en quête de faction.
+La coutume oblige:
+Lorsque qu'elle sonne.. Lorsque la cloche sonne dans votre rêve, cela veut dire que l'autodidacte vous appelle, vous devez vous rendre à Startopia et y vivre pendant 8 mois pour commencer votre quête de faction,vous découvrir, découvrir votre faction. 
+Malheureusement beaucoup de personnes ne reviennent pas de Startopia. Beaucoup sont DDOS ou intégrent une faction différente de leurs proches...
+Pardon ? Ma faction ? Sacre-bleu, ma faction attribuée ne te regarde pas moussaillons!
+
+Le lendemain matin.. 
+BOUUUMMMMMMMMMMMMMMMMMMMMMMMMM (ceci est une explosion)
+Un moussaillon à piqué le trésor du capitaine Ari et s'est enfui à l'aide du portail, malheureusement il à verouiller le portail de téléportation.
+L'historique du portail de téléportation indique Picktopia.
+Le capitaine Ari en colére et determiné déçida de poursuivre le moussaillon jusqu'à Picktopia.
+Il n'y a qu'un seul moyen de rejoindre ce moussaillon,marcher pendant 30 minutes ou rejoindre la colline de loinAurevoir pour utiliser la fusée.
+
+Le capitaine sauta dans la fusée....
+
+===>
+    - vous devez adapter le contenu du h1 avec vos nom/prénom
+    - vous devez trouver le moyen de placer 2 espaces entre vos nom/prénom
+    - affichez certaines lettres de vos nom/prénom en fonction de la taille d'affichage (ordinateur,tablette,téléphone)
+    - créez et affichez votre propre logo responsive en 3 versions (ordinateur,tablette,téléphone)
+    => VOIR EXEMPLES.png
+    - affichez votre logo dans l'onglet du navigateur
+
+    -appliquez la couleur #271d4c au background de votre h1
+    -appliquez la couleur blanche à votre h1
+    -appliquez une ombre à votre h1
+    -centrez votre h1
+    -attribuez une nouvelle font à votre h1 (libre)
+
+    -Centrez votre image fusée
+    -Donnez un :hover à votre fusée (rotation 360deg avec une transition de 0.5s)
+
+
+    -Vous devez créer 3 rangées d'ALIEN à l'aide de GRID
+
+    Vous pouvez donner un nom à vos images ALIEN (class ou id)
+    Triez les aliens:
+    -rangée 1 = 3 ALIEN bleu (alien3)
+    -rangée 2 = 2 ALIEN vert (alien2)
+    -rangée 3 = 1 ALIEN violet (alien1)
+    Centrez les Aliens au millieu de la page web
+    En version *téléphone il ne doit rester qu'un ALIEN (alien violet)
+
+    => ATTENTION Vous ne pouvez pas supprimer les images ALIEN
+    ou en ajouter de nouvelles ou modifier leurs places avec HTML / Completez la balise ALT des images
+
+
+    - vous devez adapter le contenu du paragraphe (ADAPT)(intégrez un lorem ipsum)
+    - appliquez la couleur #271d4c au background de votre p
+    - changez la dimension de votre p (Largeur:200pixels)(Hauteur:100pixels)
+    - appliquez la couleur blanche à votre texte
+    - appliquez une bordure à votre p
+    - centrez votre paragraphe
+    
+
+    footer =>
+    
+    - intégrez une icone correspondant au réseau LINKEDIN (dimension 80x80)
+    - Créez un lien sur votre image (lors du click d'image) redirigant vers votre profil LINKEDIN à jour
+    - intégrez votre CV à jour (redirection dans une nouvelle page)
+    - intégrez votre copyright
+    
+Ecrivez au moins 3 commentaires*
+
+
+
+--- Quand tu as finis =>
+Préviens moi
+Vas sur le site Github.com
+Créer un nouveau référentiel privé
+Nom du référentiel: "quete4css"
+Upload ton travail
+
+ENJOY
